@@ -1,0 +1,86 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*$py.class
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+
+# Jupyter and IPython
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# -----------------------------
+# Data
+# -----------------------------
+# (Keep only raw perovskite_full.csv)
+data/*.csv
+!data/perovskite_full.csv
+
+# Excel files
+*.xlsx
+*.xls
+
+# -----------------------------
+# Models & Results
+# -----------------------------
+models/
+results/*.csv
+results/*.png
+results/*.jpg
+results/*.jpeg
+results/*.json
+results/*.npy
+results/figures/
+results/final_report.pdf
+results/*.joblib
+
+# Allow ONLY essential items:
+!results/README.md
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+logs/
+*.out
+*.err
+
+# -----------------------------
+# OS / IDE Junk
+# -----------------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# -----------------------------
+# Reports & Temporary Files
+# -----------------------------
+*.pdf
+*.tmp
+*.bak
+*.old
+
+# -----------------------------
+# Python Packaging (not used but good practice)
+# -----------------------------
+build/
+dist/
+*.egg-info/
