@@ -1,0 +1,21 @@
+phase,n_rows,n_features,rf_r2_orig,rf_mae_orig,rf_rmse_orig,rf_r2_log,dt_accuracy,dt_confusion,dt_class_report,rf_model,dt_model,feature_names_json
+Liq,190,73,0.78990165362323,56.08897595748412,110.00042495482664,0.9051986832933503,0.7291666666666666,"[[13, 3, 0], [2, 12, 2], [0, 6, 10]]","              precision    recall  f1-score   support
+
+         Low       0.87      0.81      0.84        16
+      Medium       0.57      0.75      0.65        16
+        High       0.83      0.62      0.71        16
+
+    accuracy                           0.73        48
+   macro avg       0.76      0.73      0.73        48
+weighted avg       0.76      0.73      0.73        48
+",C:\Users\HP\Desktop\winter_projects\perovskite\models\rf_liq.joblib,C:\Users\HP\Desktop\winter_projects\perovskite\models\dt_liq.joblib,C:\Users\HP\Desktop\winter_projects\perovskite\results\feature_names_liq.json
+Gas,136,51,0.44471133398603,8483.880160400811,21556.492339203,0.7572872709049564,0.8529411764705882,"[[9, 2, 0], [1, 9, 1], [1, 0, 11]]","              precision    recall  f1-score   support
+
+         Low       0.82      0.82      0.82        11
+      Medium       0.82      0.82      0.82        11
+        High       0.92      0.92      0.92        12
+
+    accuracy                           0.85        34
+   macro avg       0.85      0.85      0.85        34
+weighted avg       0.85      0.85      0.85        34
+",C:\Users\HP\Desktop\winter_projects\perovskite\models\rf_gas.joblib,C:\Users\HP\Desktop\winter_projects\perovskite\models\dt_gas.joblib,C:\Users\HP\Desktop\winter_projects\perovskite\results\feature_names_gas.json

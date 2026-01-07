@@ -28,19 +28,6 @@ data/*.csv
 *.xlsx
 *.xls
 
-# -----------------------------
-# Models & Results
-# -----------------------------
-results/*.csv
-results/*.png
-results/*.jpg
-results/*.jpeg
-results/*.json
-results/*.npy
-results/figures/
-results/final_report.pdf
-results/*.joblib
-
 # Allow ONLY essential items:
 !results/README.md
 
