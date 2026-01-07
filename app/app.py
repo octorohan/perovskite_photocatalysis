@@ -18,6 +18,15 @@ PIPE_LIQ = ROOT / "models" / "rf_liq_pipeline.joblib"
 PIPE_GAS = ROOT / "models" / "rf_gas_pipeline.joblib"
 DATA_PATH = ROOT / "results" / "step2_clean.csv"
 
+if not PIPE_LIQ.exists():
+    st.error(f"Missing model file: {PIPE_LIQ}")
+    st.stop()
+
+if not PIPE_GAS.exists():
+    st.error(f"Missing model file: {PIPE_GAS}")
+    st.stop()
+
+
 RMSE_LOG_LIQ = 0.35   # safe stored value
 RMSE_LOG_GAS = 0.50   # safe stored value
 
